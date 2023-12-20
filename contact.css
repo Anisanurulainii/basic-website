@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff66b2;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fca7d2;
+    display: flex;
+    flex-direction: column; /* Mengubah arah tata letak menjadi vertikal */
+    align-items: center; /* Menyusun elemen secara vertikal di tengah */
+    justify-content: center; /* Menyusun elemen secara horizontal di tengah */
+}
+
+.main-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    margin-right: 20px; /* Menambahkan margin kanan antara gambar dan teks */
+}
+
+/* Menambahkan margin antara setiap ikon */
+.call-icon-container {
+    margin-right: 50px;
+}
+
+.email-icon-container {
+    margin-right: 10px;
+}
+
+.location-icon-container {
+    margin-right: 20px;
+}
+
+.main-icons img {
+    background-color: white; /* Menambahkan latar belakang warna putih */
+    padding: 50px; /* Menambahkan padding untuk membuat latar belakang lebih besar */
+    width: 30px;
+    height: 30px;
+}
+
+.icon-text {
+    display: block;
+    text-align: center;
+    margin-top: 5px; /* Menambahkan margin atas antara gambar dan teks */
+}
+
+footer {
+    background-color: #fb1789;
+    padding: 50px;
+    text-align: center;
+    color: #fb1789;
+    font-size: 18px;
+}
+
+footer p {
+    background-color: white;
+    display: inline-block;
+    padding: 5px;
+}
